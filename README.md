@@ -51,7 +51,8 @@ The coreDAQ Python API provides a simple, explicit interface for controlling the
 The core driver depends only on standard scientific Python packages:
 
 ```bash
-pip install pyserial numpy ```
+pip install pyserial numpy
+```
 
 ## Core Concepts
 
