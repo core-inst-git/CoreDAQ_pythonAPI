@@ -22,7 +22,6 @@ The API is designed for **photonic and optoelectronic measurements**, with empha
   - [Zeroing (LINEAR)](#zeroing-linear)
   - [LOG deadband (LOG)](#log-deadband-log)
 - [API reference](#api-reference)
-  - [Lifecycle](#lifecycle)
   - [Identity and device type](#identity-and-device-type)
   - [Port discovery](#port-discovery)
   - [Configuration](#configuration)
