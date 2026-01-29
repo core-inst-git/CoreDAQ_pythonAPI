@@ -151,7 +151,7 @@ class SweepWorker(QtCore.QObject):
 
                 laser.set_sweep_start()
 
-                time.sleep(samples_total/sample_rate + 0.5)
+                time.sleep(samples_total/sample_rate + 1.5)
 
                 end_time = time.time()
                 self.status.emit(
@@ -159,7 +159,7 @@ class SweepWorker(QtCore.QObject):
                 )
 
                 # ----- Retrieve data (in W) -----
-                time.sleep(0.5)
+                time.sleep(1.5)
                 try:
                     channels_W = daq.transfer_frames_W(samples_total)
                 except CoreDAQError as e:
@@ -800,3 +800,4 @@ class SweepWidget(QtWidgets.QWidget):
             header=full_header,
             comments="# ",
         )
+
